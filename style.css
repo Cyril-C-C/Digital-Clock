@@ -1,0 +1,35 @@
+body{
+    /* Color */
+    background: darkblue;
+}
+
+.clock{
+    /* Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Spacing */
+    margin: 14rem auto;
+    text-align: center;
+    /* Typography */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 2rem;
+    /* Colors */
+    color: #fff;
+    /* Others */
+}
+
+.clock span {
+    /* Spacing */
+    padding: 1.25rem;
+    /* Color */
+    background: blue;
+}
+
+@media (max-width: 50rem) {
+    .clock {
+    /* Layout */
+    flex-direction: column;
+}
+}
